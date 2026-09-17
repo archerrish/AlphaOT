@@ -1,0 +1,30 @@
+{
+  "catalog_sha256": "5e3534d2c8340b8369931f821957a3cec7dbd05fb4c4c30a794cbc940c80564b",
+  "ontology_terms": [
+    "CL:0002324",
+    "CL:0002326",
+    "CL:0002327",
+    "CL:0002451",
+    "EFO:0001200",
+    "EFO:0001203",
+    "EFO:0001247",
+    "UBERON:0000310",
+    "UBERON:0008367"
+  ],
+  "scorers": [
+    "RNA_SEQ",
+    "RNA_SEQ_ACTIVE",
+    "CHIP_TF",
+    "CHIP_TF_ACTIVE",
+    "ATAC",
+    "ATAC_ACTIVE",
+    "DNASE",
+    "DNASE_ACTIVE"
+  ],
+  "source": "AlphaGenome Atlas precomputed scores",
+  "input_sha256": "c3fbfe9b94c9230286b3ba5dc731eea5e7d7e6ebfcbaac1e3146017ce5ddc515",
+  "n_variants": 118,
+  "rows": 37380,
+  "model_inference": false,
+  "data_sha256": "00c1787f426fbd6918f173eb4760dbbdfde74ea147de271e34dd86387672bdee"
+}

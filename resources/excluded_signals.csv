@@ -1,0 +1,14 @@
+Cancer,signal_id,Meta-analysis,original_rows,original_probability_total,reason,cancer
+BsC,EAS:10_12:cs1,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,breast
+BsC,EAS:22_17:cs2,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,breast
+BsC,EUR:10_13:cs2,EUR,1,1.0,all_original_candidates_excluded_from_SNV_analysis,breast
+PrC,EAS:10_24:cs2,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,prostate
+PrC,EAS:14_32:cs1,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,prostate
+PrC,EAS:14_32:cs2,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,prostate
+PrC,EAS:2_6:cs6,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,prostate
+PrC,EAS:6_17:cs8,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,prostate
+PrC,EAS:8_20:cs9,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,prostate
+PrC,EUR:2_1:cs2,EUR,1,1.0,all_original_candidates_excluded_from_SNV_analysis,prostate
+PrC,EUR:3_4:cs2,EUR,1,1.0,all_original_candidates_excluded_from_SNV_analysis,prostate
+ThC,EAS:3_4:cs2,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,thyroid
+ThC,EAS:5_5:cs1,EAS,1,1.0,all_original_candidates_excluded_from_SNV_analysis,thyroid

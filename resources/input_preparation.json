@@ -1,0 +1,31 @@
+{
+  "summary": [
+    {
+      "cancer": "breast",
+      "original_rows": 129,
+      "snv_rows": 122,
+      "unique_variants": 118,
+      "EAS": 49,
+      "EUR": 73
+    },
+    {
+      "cancer": "prostate",
+      "original_rows": 189,
+      "snv_rows": 178,
+      "unique_variants": 177,
+      "EAS": 101,
+      "EUR": 77
+    },
+    {
+      "cancer": "thyroid",
+      "original_rows": 38,
+      "snv_rows": 36,
+      "unique_variants": 36,
+      "EAS": 27,
+      "EUR": 9
+    }
+  ],
+  "mass_rule": "raw cs_specific_prob without normalization; original minus retained probability counted once per cohort",
+  "reference_validation": "Upstream bcftools norm --check-ref e against hg38; normalized allele table used; beta not reoriented",
+  "excluded_rows": 20
+}

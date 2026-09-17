@@ -1,0 +1,188 @@
+{
+  "rsid": "rs7097066",
+  "chromosome": "chr10",
+  "position": 79129101,
+  "ref": "G",
+  "alt": "A",
+  "assembly": "hg38",
+  "features": {
+    "ATAC": {
+      "resolution": 1,
+      "start": 79128844,
+      "end": 79129356,
+      "track": {
+        "name": "EFO:0001203 ATAC-seq",
+        "strand": ".",
+        "Assay title": "ATAC-seq",
+        "ontology_curie": "EFO:0001203",
+        "biosample_name": "MCF-7",
+        "biosample_type": "cell_line",
+        "biosample_life_stage": "adult",
+        "data_source": "encode",
+        "endedness": "paired",
+        "genetically_modified": false,
+        "nonzero_mean": 1.5451331139
+      },
+      "assay": "ATAC",
+      "ontology": "EFO:0001203",
+      "label": "ATAC | MCF-7",
+      "target": "",
+      "strand": ".",
+      "gene": "",
+      "assay_title": "",
+      "display_window_bp": 512
+    },
+    "DNASE": {
+      "resolution": 1,
+      "start": 79128844,
+      "end": 79129356,
+      "track": {
+        "name": "EFO:0001203 DNase-seq",
+        "strand": ".",
+        "Assay title": "DNase-seq",
+        "ontology_curie": "EFO:0001203",
+        "biosample_name": "MCF-7",
+        "biosample_type": "cell_line",
+        "biosample_life_stage": "adult",
+        "data_source": "encode",
+        "endedness": "single",
+        "genetically_modified": false,
+        "nonzero_mean": 1.5273848772
+      },
+      "assay": "DNASE",
+      "ontology": "EFO:0001203",
+      "label": "DNase | MCF-7",
+      "target": "",
+      "strand": ".",
+      "gene": "",
+      "assay_title": "",
+      "display_window_bp": 512
+    },
+    "ESR1": {
+      "resolution": 128,
+      "start": 79123981,
+      "end": 79134221,
+      "track": {
+        "name": "EFO:0001203 TF ChIP-seq ESR1 genetically modified (insertion) using CRISPR targeting H. sapiens ESR1",
+        "strand": ".",
+        "Assay title": "TF ChIP-seq",
+        "ontology_curie": "EFO:0001203",
+        "biosample_name": "MCF-7",
+        "biosample_type": "cell_line",
+        "biosample_life_stage": "adult",
+        "transcription_factor": "ESR1",
+        "data_source": "encode",
+        "endedness": "paired",
+        "genetically_modified": true,
+        "nonzero_mean": 0.7734440565
+      },
+      "assay": "CHIP_TF",
+      "ontology": "EFO:0001203",
+      "label": "ESR1 ChIP | MCF-7 (ESR1-modified)",
+      "target": "ESR1",
+      "strand": ".",
+      "gene": "",
+      "assay_title": "",
+      "display_window_bp": 10000
+    },
+    "FOXA1": {
+      "resolution": 128,
+      "start": 79123981,
+      "end": 79134221,
+      "track": {
+        "name": "EFO:0001203 TF ChIP-seq FOXA1",
+        "strand": ".",
+        "Assay title": "TF ChIP-seq",
+        "ontology_curie": "EFO:0001203",
+        "biosample_name": "MCF-7",
+        "biosample_type": "cell_line",
+        "biosample_life_stage": "adult",
+        "transcription_factor": "FOXA1",
+        "data_source": "encode",
+        "endedness": "paired",
+        "genetically_modified": false,
+        "nonzero_mean": 0.8331028223
+      },
+      "assay": "CHIP_TF",
+      "ontology": "EFO:0001203",
+      "label": "FOXA1 ChIP | MCF-7",
+      "target": "FOXA1",
+      "strand": ".",
+      "gene": "",
+      "assay_title": "",
+      "display_window_bp": 10000
+    },
+    "GATA3": {
+      "resolution": 128,
+      "start": 79123981,
+      "end": 79134221,
+      "track": {
+        "name": "EFO:0001203 TF ChIP-seq GATA3",
+        "strand": ".",
+        "Assay title": "TF ChIP-seq",
+        "ontology_curie": "EFO:0001203",
+        "biosample_name": "MCF-7",
+        "biosample_type": "cell_line",
+        "biosample_life_stage": "adult",
+        "transcription_factor": "GATA3",
+        "data_source": "encode",
+        "endedness": "single",
+        "genetically_modified": false,
+        "nonzero_mean": 0.6778743267
+      },
+      "assay": "CHIP_TF",
+      "ontology": "EFO:0001203",
+      "label": "GATA3 ChIP | MCF-7",
+      "target": "GATA3",
+      "strand": ".",
+      "gene": "",
+      "assay_title": "",
+      "display_window_bp": 10000
+    },
+    "H3K4me1": {
+      "resolution": 128,
+      "start": 79123981,
+      "end": 79134221,
+      "track": {
+        "name": "EFO:0001203 Histone ChIP-seq H3K4me1",
+        "strand": ".",
+        "Assay title": "Histone ChIP-seq",
+        "ontology_curie": "EFO:0001203",
+        "biosample_name": "MCF-7",
+        "biosample_type": "cell_line",
+        "biosample_life_stage": "adult",
+        "histone_mark": "H3K4me1",
+        "data_source": "encode",
+        "endedness": "single",
+        "genetically_modified": false,
+        "nonzero_mean": 0.7435044646
+      },
+      "assay": "CHIP_HISTONE",
+      "target": "H3K4me1",
+      "display_window_bp": 10000
+    }
+  },
+  "source_caches": [
+    {
+      "source": "resources/spatial/rs7097066",
+      "sha256": {
+        ".json": "fa7f2eb63a8380f1517193f8108e8d59ba6bfb803e2077e3ecdd306ee3357c2e",
+        ".npz": "302126c80b192568c35042a89b09081c4b6232a720df97d7efea0555b81e9dfb"
+      },
+      "fetched_at": "2026-09-06T09:02:18.802908+00:00",
+      "alphagenome_version": "0.8.0",
+      "model_version": "server_default; immutable version not exposed"
+    },
+    {
+      "source": "resources/spatial/h3k4me1/rs7097066",
+      "sha256": {
+        ".json": "94c2cbe3cf667fccd680a957383bd58f881759cad474f9b0a48017a77dfb6780",
+        ".npz": "e6444804e74e3b7d73ae797c5ddaa8a9383442e5eb551ae96dd557690ef650fc"
+      },
+      "fetched_at": "2026-09-16T03:18:33.308903+00:00",
+      "alphagenome_version": "0.9.0",
+      "model_version": "server_default; immutable version not exposed"
+    }
+  ],
+  "preparation": "Exact contiguous native-bin slices for 10,000 bp TF/histone and 512 bp accessibility windows; no smoothing, rescaling, or inference."
+}

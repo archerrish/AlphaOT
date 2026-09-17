@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AlphaOT continuous two-view global transport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "unmatched_penalty", "integration", "source_cohort", "target_cohort", "pathway_size_range", "cancers", "lambda_sensitivity"],
+  "properties": {
+    "schema_version": {"const": 4},
+    "unmatched_penalty": {"type": "number", "exclusiveMinimum": 0, "default": 0.3},
+    "integration": {"const": "max"},
+    "source_cohort": {"type": "string", "minLength": 1},
+    "target_cohort": {"type": "string", "minLength": 1},
+    "pathway_size_range": {"type": "array", "minItems": 2, "maxItems": 2, "items": {"type": "integer", "minimum": 1}},
+    "lambda_sensitivity": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "number", "exclusiveMinimum": 0}},
+    "cancers": {
+      "type": "object", "minProperties": 1,
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false,
+        "required": ["input", "scores", "contexts"],
+        "properties": {
+          "input": {"type": "string"}, "scores": {"type": "string"},
+          "contexts": {
+            "type": "object", "additionalProperties": {
+              "type": "object", "additionalProperties": false, "required": ["name"],
+              "properties": {"name": {"type": "string"}, "tier": {"type": "string"}, "ontology_curie": {"type": "string"}}
+            }
+          }
+        }
+      }
+    }
+  }
+}

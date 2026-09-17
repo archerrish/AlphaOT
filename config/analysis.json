@@ -1,0 +1,128 @@
+{
+  "schema_version": 4,
+  "unmatched_penalty": 0.3,
+  "integration": "max",
+  "source_cohort": "EAS",
+  "target_cohort": "EUR",
+  "pathway_size_range": [
+    10,
+    300
+  ],
+  "cancers": {
+    "breast": {
+      "input": "inputs/breast.csv",
+      "scores": "resources/atlas/breast.parquet",
+      "contexts": {
+        "UBERON:0008367": {
+          "name": "breast epithelium",
+          "tier": "primary"
+        },
+        "CL:0002327": {
+          "name": "mammary epithelial cell",
+          "tier": "primary"
+        },
+        "CL:0002326": {
+          "name": "luminal epithelial cell of mammary gland",
+          "tier": "primary"
+        },
+        "CL:0002324": {
+          "name": "myoepithelial cell of mammary gland",
+          "tier": "primary"
+        },
+        "CL:0002451": {
+          "name": "mammary stem cell",
+          "tier": "primary"
+        },
+        "UBERON:0000310": {
+          "name": "breast, bulk tissue",
+          "tier": "primary"
+        },
+        "EFO:0001200": {
+          "name": "MCF 10A",
+          "tier": "immortalized"
+        },
+        "EFO:0001203": {
+          "name": "MCF-7",
+          "tier": "tumour"
+        },
+        "EFO:0001247": {
+          "name": "T47D",
+          "tier": "tumour"
+        },
+        "GTEx:Breast_Mammary_Tissue": {
+          "name": "GTEx bulk breast mammary tissue",
+          "tier": "primary",
+          "ontology_curie": "UBERON:0008367"
+        }
+      }
+    },
+    "prostate": {
+      "input": "inputs/prostate.csv",
+      "scores": "resources/atlas/prostate.parquet",
+      "contexts": {
+        "UBERON:0002367": {
+          "name": "prostate gland",
+          "tier": "primary"
+        },
+        "CL:0002231": {
+          "name": "epithelial cell of prostate",
+          "tier": "primary"
+        },
+        "CL:0002622": {
+          "name": "prostate stromal cell",
+          "tier": "primary"
+        },
+        "CL:1000487": {
+          "name": "smooth muscle cell of prostate",
+          "tier": "primary"
+        },
+        "EFO:0002071": {
+          "name": "LNCAP",
+          "tier": "tumour"
+        },
+        "EFO:0002074": {
+          "name": "PC-3",
+          "tier": "tumour"
+        },
+        "EFO:0002095": {
+          "name": "22Rv1",
+          "tier": "tumour"
+        },
+        "EFO:0005726": {
+          "name": "LNCaP clone FGC",
+          "tier": "tumour"
+        },
+        "EFO:0007752": {
+          "name": "VCaP",
+          "tier": "tumour"
+        },
+        "GTEx:Prostate": {
+          "name": "GTEx bulk prostate",
+          "tier": "primary",
+          "ontology_curie": "UBERON:0002367"
+        }
+      }
+    },
+    "thyroid": {
+      "input": "inputs/thyroid.csv",
+      "scores": "resources/atlas/thyroid.parquet",
+      "contexts": {
+        "UBERON:0002046": {
+          "name": "thyroid gland",
+          "tier": "primary"
+        },
+        "GTEx:Thyroid": {
+          "name": "GTEx bulk thyroid",
+          "tier": "primary",
+          "ontology_curie": "UBERON:0002046"
+        }
+      }
+    }
+  },
+  "lambda_sensitivity": [
+    0.25, 0.255, 0.26, 0.265, 0.27, 0.275, 0.28, 0.285,
+    0.29, 0.295, 0.3, 0.305, 0.31, 0.315, 0.32, 0.325,
+    0.33, 0.335, 0.34, 0.345, 0.35, 0.355, 0.36, 0.365,
+    0.37, 0.375, 0.38, 0.385, 0.39, 0.395, 0.4
+  ]
+}
