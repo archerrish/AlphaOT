@@ -20,7 +20,7 @@ build/results/       Recomputed result tables and provenance
 build/figures/       Individual retained panels in PDF and PNG only
 ```
 
-The calculation refuses to overwrite nonempty result directories. For another full run, use `python reproduce.py --output build-repeat`. To redraw from an existing validated run, use `python reproduce.py --plots-only`.
+To redraw from an existing validated run, use `python reproduce.py --plots-only`.
 
 ## Contents
 
